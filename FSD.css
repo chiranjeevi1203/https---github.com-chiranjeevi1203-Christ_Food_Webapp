@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1539136788836-5699e78bfc75?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    position:relative;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    text-align: end;
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: yellow;
+    transition: .3s ease-in-out;
+}
+
+.navbar a:hover{
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 10px;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.fooditems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fooditems > div {
+    text-align: center;
+    margin: 0 auto; 
+    padding: 30px;
+    width: calc(33.33% - 150px);
+    height: 240px;
+    margin-top: 20px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 2px solid rgba(252, 252, 250, 0.281);
+    transition: transform 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+.fooditems > div:hover {
+    transform: scale(1.1);
+}
+
+.mingobutton, .freshbutton{
+    padding-top: 90px;
+}
+
+.surfimg, .falconimg, .nandiniimg, .cakeimg, .mingosimg, .freshimg{
+    padding-left: 25%;
+    padding-right: 50%;
+}
+
+.fooditems button {
+    --font-color: #ffd70d;
+    --bg-color: #3a3939;
+    --main-color: #323232;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+    margin-top: 25px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.fooditems button:active {
+    box-shadow: 0px 0px var(--main-color);
+    transform: translate(3px, 3px);
+}
+
+.fooditems button:hover {
+    background-color: rgb(240, 147, 34);
+}
+
+footer {
+    position: relative;
+    bottom: 10;
+    width: 100%;
+    background-color: #333;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    color: #fff;
+    top: 100px;
+}
+
+.support, .followus{
+    font-size: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.followus:hover{
+    color: orange;
+}
